@@ -27,7 +27,7 @@ const Hero = () => {
                     <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                         <a
                             href="#projects"
-                            className="px-8 py-3 bg-emerald-600 text-white font-medium rounded-md hover:bg-emerald-700 transition-colors duration-300 text-center"
+                            className="px-8 py-3 bg-emerald-600 text-white font-medium rounded-md hover:bg-emerald-700 duration-300 text-center hover:text-gray-100"
                         >
                             View Our Projects
                         </a>

@@ -94,7 +94,7 @@ const Rendering = () => {
                             <div className="bg-emerald-50 rounded-lg p-6 text-center">
                                 <h4 className="text-xl font-semibold text-gray-800 mb-4">Ready to visualize your project?</h4>
                                 <p className="text-gray-600 mb-6">Get in touch to discuss how our 3D rendering services can help bring your vision to life.</p>
-                                <a href="#contact" className="inline-block px-6 py-3 bg-emerald-600 text-white font-medium rounded-md hover:bg-emerald-700 transition-colors duration-300">
+                                <a href="#contact" className="inline-block px-6 py-3 bg-emerald-600 text-white font-medium rounded-md hover:bg-emerald-700 hover:text-gray-100 transition-colors duration-300">
                                     Contact Us
                                 </a>
                             </div>

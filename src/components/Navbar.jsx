@@ -24,17 +24,17 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <a href="#" className="text-2xl font-bold text-gray-800">
-                            <span className="text-emerald-600">Dyna Grow</span> Design
+                            <span className="text-emerald-600">Dyna Grow Design Solutions</span>
                         </a>
                     </div>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-8">
-                        <a href="#" className="text-gray-700 hover:text-emerald-600 transition-colors">Home</a>
-                        <a href="#about" className="text-gray-700 hover:text-emerald-600 transition-colors">About</a>
-                        <a href="#projects" className="text-gray-700 hover:text-emerald-600 transition-colors">Projects</a>
-                        <a href="#rendering" className="text-gray-700 hover:text-emerald-600 transition-colors">3D Rendering</a>
-                        <a href="#contact" className="text-gray-700 hover:text-emerald-600 transition-colors">Contact</a>
+                        <a href="#" className="text-gray-100 hover:text-emerald-600 transition-colors">Home</a>
+                        <a href="#about" className="text-gray-100 hover:text-emerald-600 transition-colors">About</a>
+                        <a href="#projects" className="text-gray-100 hover:text-emerald-600 transition-colors">Projects</a>
+                        <a href="#rendering" className="text-gray-100 hover:text-emerald-600 transition-colors">3D Rendering</a>
+                        <a href="#contact" className="text-gray-100 hover:text-emerald-600 transition-colors">Contact</a>
                     </div>
 
                     {/* Mobile Menu Button */}
