@@ -74,7 +74,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="text-lg font-medium text-emerald-400 mb-1">Address</h4>
-                                        <p className="text-gray-300">123 Design Street, Creative District, Mumbai 400001, India</p>
+                                        <p className="text-gray-300">610, Scarlet Business Hub, Opp. Ankur school, Paldi, Ahmedabad. 380007.</p>
                                     </div>
                                 </div>
 
@@ -87,7 +87,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="text-lg font-medium text-emerald-400 mb-1">Phone</h4>
-                                        <p className="text-gray-300">+91 98765 43210</p>
+                                        <p className="text-gray-300">+91-6353741971</p>
                                     </div>
                                 </div>
 
@@ -113,7 +113,7 @@ const Contact = () => {
                             <div className="flex flex-wrap gap-4">
                                 {/* Instagram */}
                                 <a
-                                    href="#"
+                                    href="https://www.instagram.com/dyna_grow_design_solution/?hl=en"
                                     className="flex items-center justify-center w-14 h-14 bg-gradient-to-tr from-purple-600 via-pink-600 to-orange-500 rounded-full hover:opacity-90 transition-opacity"
                                 >
                                     <svg className="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">

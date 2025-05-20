@@ -1,7 +1,8 @@
 import React from 'react';
+import face from '../assets/images/face.png';
 
 const About = () => {
-    return ( 
+    return (
         <section id="about" className="py-20 bg-gray-50">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
@@ -9,16 +10,16 @@ const About = () => {
                     <div className="w-24 h-1 bg-emerald-500 mx-auto"></div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row items-center">
+                <div className="flex flex-col lg:flex-row justify-center items-center">
                     {/* Image */}
-                    <div className="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div className="lg:w-1/4 mb-10 lg:mb-0 lg:pr-10">
                         <div className="relative">
                             <img
-                                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                                src={face}
                                 alt="Maitra Shah"
                                 className="rounded-lg shadow-xl w-full max-w-md mx-auto"
                             />
-                            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-emerald-500 rounded-full z-0 hidden md:block"></div>
+                            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-emerald-500 rounded-full z-0 hidden md:block"></div>
                         </div>
                     </div>
 
